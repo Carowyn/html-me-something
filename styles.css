@@ -32,23 +32,23 @@ h3 {
 }
 
 img {
-    width: 175;
-    height: 125;
+    width: 175px;
+    height: 125px;
     margin: 2px;
     border: 3px solid #800000
 
 }
 
 .arrow {
-    width: 50;
-    height: 80;
+    width: 50px;
+    height: 80px;
     margin: 25px;
     padding: 1%;
 }
 
 #LC {
-    width: 200;
-    height: 110;
+    width: 200px;
+    height: 110px;
     margin: 2px;
 }
 
@@ -76,4 +76,3 @@ footer a:hover {
 footer {
     text-size: 12px;
     font-style: italic;
-    
