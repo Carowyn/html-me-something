@@ -32,24 +32,26 @@ h3 {
 }
 
 img {
-    width: 150;
-    height: 100;
+    width: 150px;
+    height: 100px;
     margin: 2px;
     border: 3px solid #800000
 
 }
 
 .arrow {
-    width: 50;
-    height: 80;
+    width: 50px;
+    height: 80px;
     margin: 25px;
     padding: 1%;
+    border: none;
 }
 
 #LC {
-    width: 190;
-    height: 100;
+    width: 190px;
+    height: 100px;
     margin: 2px;
+    border: none;
 }
 
 p {
