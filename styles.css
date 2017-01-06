@@ -5,66 +5,47 @@ body {
 }
 
 h1 {
-    text-size: 35px;
+    font-size: 35px;
     color: #B0E0E6;
-    text-weight: bold;
+    font-weight: bold;
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 h2 {
-    text-size: 30px;
+    font-size: 30px;
     color: #B0E0E6;
-    text-weight: bold;
+    font-weight: bold;
     margin-left: 10px;
     margin-top: 5px;
     margin-right: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 h3 {
-    text-size: 20px;
+    font-size: 20px;
     color: #F5DEB3;
-    text-weight: bold;
+    font-weight: bold;
     text-decoration: underline;
     margin: 2px;
 }
 
-img {
-    width: 150px;
-    height: 100px;
-    margin: 5px;
-    border: 3px solid #800000
-
-}
-
-.arrow {
-    width: 100px;
-    height: 50px;
-    margin: 20px;
-    padding: 1%;
-    border: none;
-}
-
-#LC {
-    width: 200px;
-    height: 100px;
-    margin: 2px;
-    border: none;
-}
-
-p {
-    color: #F5DEB3;
-    text-size: 15px;
-    text-decoration: none;
-    word-wrap: break-word;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 1%;
+div {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding 10px;
+    border: 6px solid #030205;
+    background-color: #800000;
+    opacity: 0.70;
+    height: 50%;
+    width: 80%;
+    border-radius: 25px;
+    color: #F5DEB3
 }
 
 footer a {
@@ -77,5 +58,59 @@ footer a:hover {
 }
 
 footer {
-    text-size: 12px;
+    font-size: 15px;
     font-style: italic;
+    background-color: #3f1616;
+    text-align: center;
+    color: #F5DEB3
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    border: 3px solid #030205
+}
+
+span {
+    font-size: 40px;
+}
+
+.arrow {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    border: 3px solid #030205
+    border-radius: 25px;
+}
+
+.im {
+    margin: auto;
+    padding: 10px;
+    border: 6px solid #030205;
+    height: 25%;
+    width: 42%;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.clear {
+    width: 125px;
+    height: 100px;
+    margin: auto;
+    padding: 2px;
+    opacity: 0.0;
+}
+
+.word {
+    padding: 20px;
+}
+
+#LC {
+    width: 200px;
+    height: 100px;
+    margin: center;
+    border: 3px solid #030205
+}
