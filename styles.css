@@ -10,8 +10,7 @@ div {
     margin-top: 15px;
     padding 10px;
     border: 6px solid #030205;
-    background-color: #800000;
-    opacity: 0.70;
+    background: rgba(128, 0, 0, .68);
     height: 50%;
     width: 80%;
     border-radius: 25px;
@@ -21,13 +20,13 @@ div {
 footer {
     font-size: 15px;
     font-style: italic;
-    background-color: #3f1616;
+    background: rgba(128, 0, 0, .25);
     text-align: center;
     color: #F5DEB3
 }
 
 footer a {
-    color: red;
+    color: black;
     text-decoration: none;
 }
 
@@ -37,7 +36,7 @@ footer a:hover {
 
 h1 {
     font-size: 35px;
-    color: #B0E0E6;
+    color: #F5DEB3;
     font-weight: bold;
     margin-left: 10px;
     margin-top: 10px;
@@ -48,7 +47,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color: #B0E0E6;
+    color: #F5DEB3;
     font-weight: bold;
     margin-left: 10px;
     margin-top: 5px;
@@ -69,7 +68,8 @@ img {
     width: 150px;
     height: 100px;
     margin: auto;
-    border: 3px solid #030205
+    border: 3px solid #030205;
+    border-radius: 10px;
 }
 
 .arrow {
